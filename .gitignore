@@ -1,0 +1,64 @@
+# Secrets and environment files
+# Environment files
+.env
+.env.*
+env/
+.venv/
+venv/
+ENV/
+.python-version
+
+# Private keys and certificates
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+
+# Credentials and service account files
+credentials.json
+credential.json
+*.credentials
+secret.json
+secrets.yml
+secrets.yaml
+secrets.json
+serviceAccountKey.json
+google-service-account.json
+firebase-*.json
+
+# AWS / Google Cloud
+.aws/credentials
+.aws/config
+gcloud-service-account.json
+
+# Django/local
+local_settings.py
+settings_local.py
+.envrc
+
+# Databases (may contain secrets)
+*.sqlite3
+db.sqlite3
+
+# Docker / Compose secrets
+docker-compose.override.yml
+secrets/
+
+# Terraform state
+*.tfstate
+*.tfstate.backup
+terraform.tfvars
+
+# Misc
+.DS_Store
+.vscode/
+.idea/
+*.iml
+
